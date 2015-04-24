@@ -40,6 +40,7 @@ DEPEND_ABI.yarp=	yarp>=${VERSION}<2.3.60
 
 include ../../devel/swig/depend.mk
 include ../../middleware/yarp/depend.mk
+include ../../middleware/ace/depend.mk
 include ../../pkgtools/install-sh/depend.mk
 include ../../mk/sysdep/python.mk
 include ../../mk/sysdep/cmake.mk
